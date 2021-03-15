@@ -228,6 +228,7 @@
   <ItemGroup>
     <Compile Include="EntityFramework\MyProjectDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\MyProjectRepositoryBase.cs" />
+    <Compile Include="Migrations\SeedData\DefaultMapsCreator.cs" />
     <Compile Include="MyProjectDataModule.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.Designer.cs">
