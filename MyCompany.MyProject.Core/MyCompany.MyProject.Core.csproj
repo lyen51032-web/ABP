@@ -207,6 +207,8 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Map.cs" />
+    <Compile Include="Entities\Player.cs" />
     <Compile Include="MyProjectConsts.cs" />
     <Compile Include="MyProjectCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />
