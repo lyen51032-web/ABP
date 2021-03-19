@@ -33,7 +33,7 @@ namespace MyCompany.MyProject.Migrations
             {
                 //You can add seed for tenant databases and use Tenant property...
             }
-
+            new PlayerAndMapBuilder(context).Create();
             context.SaveChanges();
         }
     }
